@@ -1,0 +1,63 @@
+package CabCompany;
+
+public class Cab{
+	
+	private int seat;
+
+	private double FuelConsumption;
+　　　
+　　　Private string Color;
+	
+	public Cab(){
+		
+	}
+	
+	public Cab(int seat, double fuelConsumption){
+		 
+		this.seat = seat;
+		
+		this.fuelConsumption = fuelConsumption;
+		 
+	}
+
+　　　public Cab(int seat, double fuelConsumption, string color){
+		 
+		this.seat = seat;
+		
+		this.fuelConsumption = fuelConsumption;
+
+　　　this.color = color;
+		 
+	}
+
+	
+	public Cab(int seat, double fuelConsumption, string Color){
+		 
+		this.seat = seat;
+		
+		this.fuelConsumption = fuelConsumption;
+		
+		this.Color = Color;
+		 
+	}
+	
+	
+	public double getFuelConsumption(){
+		
+		System.out.println("Fuel consumption is: "+this.fuelConsumption);
+		return 0;
+				
+	}
+	
+	public int getSeats(){
+		
+		return this.seat;
+	}
+
+　　　public int getcolor(){
+		
+		return this.color;
+	}
+
+		
+}

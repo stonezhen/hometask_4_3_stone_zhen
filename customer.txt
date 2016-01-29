@@ -1,0 +1,16 @@
+package CabCompany;
+
+
+public class Customer {  
+    public static void main(String[] args) throws Exception{  
+      try{   
+	getCab(2,2.¡±red¡±);
+
+	catch (Exception e){
+        System.out.println("catch exception");
+        Throw e;
+     }
+
+    }  
+}  
+
